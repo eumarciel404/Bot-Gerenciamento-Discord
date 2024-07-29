@@ -1,0 +1,23 @@
+{
+  "name": "grifo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc --outDir \"\"",
+    "start": "ts-node index.ts"
+  },
+  "author": "Marciel404",
+  "license": "MIT",
+  "dependencies": {
+      "adm-zip": "^0.5.10",
+      "axios": "^1.4.0",
+      "discord-html-transcripts": "^3.1.4",
+      "discord.js": "^14.11.0",
+      "dotenv": "^16.1.3",
+      "moment": "^2.29.4",
+      "moment-timezone": "^0.5.43",
+      "mongodb": "^5.5.0",
+      "node-json-db": "^2.2.0"
+  }
+}
